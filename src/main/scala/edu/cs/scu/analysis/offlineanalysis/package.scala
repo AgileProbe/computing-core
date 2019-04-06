@@ -1,4 +1,4 @@
-package edu.cs.scu.analysis.offlineanalysis
+package edu.cs.scu.analysis
 
 import edu.cs.scu.common.constants.AnalysisConstants
 import edu.cs.scu.javautils.ParseJson
@@ -7,7 +7,7 @@ import org.apache.hadoop.hbase.mapreduce.TableInputFormat
 import org.apache.hadoop.hbase.util.Bytes
 import org.apache.spark.SparkContext
 
-object AnalysisEachDay {
+package object offlineanalysis {
   def analysisStayTime(sc: SparkContext, conf: Configuration): Unit = {
     val hBaseRDD = sc.newAPIHadoopRDD(conf, classOf[TableInputFormat],
       classOf[org.apache.hadoop.hbase.io.ImmutableBytesWritable],
