@@ -27,7 +27,7 @@ package object offlineanalysis {
       while (dataIterator.hasNext) {
         //print(dataIterator.next().getMac)
       }
-      println("RDDCOUNT:" + count)
+      //println("RDDCOUNT:" + count)
     }
     }
 
