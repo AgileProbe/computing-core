@@ -27,7 +27,7 @@
 **/*.csv
 
 # maven package files
-**/dependency-reduced-pom.xml 
+**/dependency-reduced-pom.xml
 
 # property files
 
@@ -45,3 +45,4 @@
 **/package-lock.json
 **/tags
 !*.pdf
+*.xml
