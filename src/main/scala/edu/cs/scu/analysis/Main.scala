@@ -44,6 +44,7 @@ object Main {
     //    val originData = InitUtil.getDStream(streamingContext)
     //    // 如果读入的数据不为空
     //    if (originData != null) {
+    //      println("获取数据")
     //      RealTimeAnalysis.analysis(spark, streamingContext, originData)
     //    }
     // 启动流环境
